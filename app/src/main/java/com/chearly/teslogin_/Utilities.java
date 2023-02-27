@@ -18,7 +18,7 @@ public class Utilities {
     public String getPref(Context context, String key){
         sp = PreferenceManager.getDefaultSharedPreferences(context);
         String value = sp.getString(key, null);
-        return value
+        return value;
     }
 
     public Boolean isLogin(Context context, String key){
